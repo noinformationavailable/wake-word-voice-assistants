@@ -1,6 +1,6 @@
 substitutions:
-  name: m5stack-atom-echo
-  friendly_name: M5Stack Atom Echo
+  name: atom-specific
+  friendly_name: Atom Specific
   micro_wake_word_model: okay_nabu  # alexa, hey_jarvis, hey_mycroft are also supported
 
 esphome:
