@@ -61,15 +61,15 @@ voice_assistant:
   on_listening:
     - light.turn_on:
         id: led
-        blue: 100%
-        red: 0%
+        blue: 0%
+        red: 100%
         green: 0%
         effect: "Slow Pulse"
   on_stt_vad_end:
     - light.turn_on:
         id: led
-        blue: 100%
-        red: 0%
+        blue: 0%
+        red: 100%
         green: 0%
         effect: "Fast Pulse"
   on_tts_start:
