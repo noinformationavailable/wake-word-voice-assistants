@@ -80,11 +80,11 @@ voice_assistant:
         green: 0%
         brightness: 100%
         effect: none
-     - homeassistant.service:
-        service: tts.cloud_say
-        data:
-          entity_id: media_player.nest_lab   #replace this with your media player entity id
-          message: !lambda 'return x;'       
+    - homeassistant.service:
+      service: tts.cloud_say
+      data:
+        entity_id: media_player.nest_lab   #replace this with your media player entity id
+        message: !lambda 'return x;'          
   on_end:
     - delay: 100ms
     - voice_assistant.stop:
