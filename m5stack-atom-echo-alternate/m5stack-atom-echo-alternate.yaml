@@ -317,7 +317,7 @@ external_components:
     components:
       - esp_adf
     refresh: 0s
-  - source: github://jesserockz/esphome-components
+  - source: github://noinformationavailable/esphome-components
     components: [file]
     refresh: 0s
 
